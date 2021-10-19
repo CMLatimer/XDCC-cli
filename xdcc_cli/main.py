@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import urllib.request, json, pandas as pd, sys, os, re
 
 def xdcc_get():
