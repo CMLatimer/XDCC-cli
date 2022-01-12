@@ -11,7 +11,7 @@ def xdcc_get():
 
     df = pd.DataFrame(data)
 
-    channels = ['#Batcave', '#ELITEWAREZ', '#moviegods']
+    channels = ['#Batcave', '#ELITEWAREZ', '#moviegods', '#THE.SOURCE']
     df = df[df['channel'].isin(channels)].reset_index()
     df = df[['network', 'channel', 'bot', 'packnum', 'gets', 'fsize', 'fname']]
     print(df)
